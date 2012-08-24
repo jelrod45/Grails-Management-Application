@@ -1,6 +1,0 @@
-package rapco
-
-class UserController {
-
-    def index() { }
-}
