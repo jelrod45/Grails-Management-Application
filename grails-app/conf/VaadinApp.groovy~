@@ -1,0 +1,35 @@
+package rapco
+
+import com.vaadin.*
+import com.vaadin.ui.*
+import com.vaadin.terminal.*
+import com.vaadin.ui.Button.ClickEvent
+//import grails.plugins.springsecurity.Secured
+import org.springframework.security.access.prepost.PostFilter
+import org.springframework.security.access.prepost.PreAuthorize
+import org.springframework.transaction.annotation.Transactional
+
+
+class VaadinApplication extends Application {
+ 
+    void init(){
+        def window = new Window("Rapid Committee Management System")
+	    setMainWindow window
+
+        def loginPane = new Panel()
+	    loginPane.addComponent(new Embedded(null, new ThemeResource("http://rapidcommittee.com/static/kJC8yvlXeMw0SeONV3a4WfTNBuXAGvqDmXfwuHYZAJ.png")));
+	    loginPane.addStyleName("loginPane")
+	    
+	def loginForm = new FormLayout();
+	    loginForm.addComponent(new TextField("Username!!!!"));
+	    loginForm.addComponent(new TextField("Password"));
+	    loginForm.addComponent(new Button("Login"));
+	
+	loginPane.setContent(loginForm);
+	loginPane.setStyle("background-color: #FF0000; border-color: #00FF00; margin-left: auto; margin-right: auto;");
+	window.addComponent(loginPane);
+	
+	window.addComponent(new Button(rapco.User.findByUsername("admin").id.toString()));
+    }
+
+}

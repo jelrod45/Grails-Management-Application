@@ -1,0 +1,11 @@
+package rapco
+
+class CommitteeMemberController {
+
+    def scaffold = CommitteeMember
+
+    def update = {
+        println(CommitteeMember.get(params.id))
+    }
+
+}

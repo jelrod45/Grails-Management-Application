@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+	<head>
+		<meta name="layout" content="main"/>
+		<title>RapidCommittee Management System</title>
+		<style type="text/css" media="screen"></style>
+	</head>
+	<body>
+		<a href="#page-body" class="skip"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
+		<div id="logo"></div>
+		<!--form id="login" action="javascript:alert('login');">
+		  <input id="username" type="text" text="User Name : ">
+		  <input id="password" type="password" text="Password : ">
+		  <input id="submit" type="submit" text="Login">
+		</form-->
+	</body>
+</html>

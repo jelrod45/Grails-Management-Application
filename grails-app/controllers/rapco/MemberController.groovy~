@@ -1,0 +1,6 @@
+package rapco
+
+class MemberController {
+
+    def index() { }
+}

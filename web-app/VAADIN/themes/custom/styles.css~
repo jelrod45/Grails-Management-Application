@@ -1,0 +1,140 @@
+@import "../reindeer/styles.css";
+
+@import "button/button.css";
+@import "window/window.css";
+@import "layout/layout.css";
+
+.v-sa .v-app,
+.v-sa .v-window,
+.v-sa .v-popupview-popup,
+.v-sa .v-tooltip,
+.v-sa .v-app input,
+.v-sa .v-app select,
+.v-sa .v-app button,
+.v-sa .v-app textarea,
+.v-sa .v-window input,
+.v-sa .v-window select,
+.v-sa .v-window button,
+.v-sa .v-window textarea,
+.v-sa .v-popupview-popup input,
+.v-sa .v-popupview-popup select,
+.v-sa .v-popupview-popup button,
+.v-sa .v-popupview-popup textarea,
+.v-sa .v-filterselect-suggestpopup,
+.v-sa .v-datefield-popup,
+.v-sa .v-contextmenu,
+.v-Notification,
+.v-menubar-submenu {
+	font-family: Arial, Helvetica, "Lucida Grande", Geneva, Tahoma, Verdana, sans-serif;
+}
+
+.mainLogo {
+    margin-top: 60px;
+    margin-bottom: 11px;
+    border-width: 0px;
+}
+
+.menuButton {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.navButton {
+    margin-left: 50px;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.logout {
+    margin-left: 20px;
+}
+
+.mainMenu {
+    background: #F8F8F8;
+}
+
+.mainHeader {
+    background: #000000;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16pt;
+    font-style: italic;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.mainHeader .v-label {
+    v-align: center;
+}
+
+.verticalRule {
+    background: #000000;
+    color: #000000;
+}
+
+.littleLogo {
+    margin-left: 7px;
+    margin-bottom: 10px;
+}
+
+.listHeader {
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-style: bold;
+    font-size: 10pt;
+    text-decoration: underline;
+}
+
+.listItem {
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+ }    
+
+.onSuccess {
+    font-size: 12pt;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.error {
+    color: #FF0000;
+    font-size: 10pt;
+}
+
+.v-sa .v-app {
+    background: #FFFFFF;
+}
+
+.v-sa .v-app .v-panel,
+.v-sa .v-app .v-panel .v-panel-content {
+    background: #FFFFFF;
+    border-width: 0px;
+}
+
+.v-sa .v-app .v-panel .v-formlayout,
+.v-sa .v-app .v-panel .v-panel-deco {
+    background: #FFFFFF;
+    width: 400px;
+    border-width: 0px;
+}
+
+.v-sa .v-app .v-panel .v-caption {
+    margin-left: 15px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.v-sa .v-app .v-panel .v-button .v-wrap {
+    color: #FF0000;
+    background: #FFFFFF;
+}
+
